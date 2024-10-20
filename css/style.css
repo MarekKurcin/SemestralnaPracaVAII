@@ -1,0 +1,128 @@
+body {
+    background-color: #3b3b40;
+}
+
+.board {
+
+    border: 2px solid #408f43;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #202124;
+    height: auto;
+    min-height: 70vh;
+    max-height: 100vh;
+    overflow: auto;
+    flex: 1;
+}
+
+.radiusBorder {
+    border: 2px solid #408f43;
+    border-radius: 10px;
+}
+
+.marSetting {
+    margin: 5px;
+}
+
+.padSetting{
+    padding: 5px;
+}
+
+.loginStyle {
+    display: flex;
+    margin: 15px;
+    border: 1px solid #408f43;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.colorDark{
+    background-color: #202124;
+}
+
+.cardChampSetting{
+
+    background-color: #3b3b40;
+    border: 2px solid #2b2b2e;
+    border-radius: 10px;
+    margin: 5px;
+    height: 180px;
+    width: 130px;
+}
+
+.champImage{
+    padding: 6px;
+}
+
+.champText {
+    color: white;
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.navbar{
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 10px;
+}
+
+.loginText{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.centerMid {
+    display: flex;
+    justify-content: center;
+}
+
+.colorWhite {
+    color: white;
+    border-color: white;
+}
+
+.imgSlider {
+    width: 70%;
+    height: 70%;
+}
+
+.imgCenter{
+    margin-left: 40%;
+}
+
+.textPopis {
+    color: white;
+    font-size: 15px;
+}
+
+.white-text {
+    color: white;
+}
+
+.blue-text {
+    color: dodgerblue;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.red-text {
+    color: red;
+}
+
+.tableLeaderboard {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+

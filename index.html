@@ -1,28 +1,147 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hello, world!</title>
-</head>
-<body>
-<div class="container-fluid">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <nav class="navbar fixed-top navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Toturiál na League of Legends</a>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </nav>
+        <title>LOL toturial</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <div class="container-fluid">
 
-</div>
+        <nav class="navbar navbar-dark colorDark radiusBorder marSetting">
+            <a class="navbar-brand" href="index.html">Toturiál na League of Legends</a>
+            <a class="navbar-brand mr-auto" href="tierlist.html">Tier List</a>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-</html>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+            <button class="login-btn loginStyle" onclick="location.href='login.html'">
+                <img src="assets/image/avatar.png" alt="Profile" class="profile-img">
+                <span class=" loginText">Login</span>
+            </button>
+        </nav>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7 board marSetting">
+                <h1 class="champText">Champions</h1>
+                <div class="row-cols-2 row-cols-md-4 d-flex flex-wrap">
+                <div class="card cardChampSetting" >
+                    <img class="card-img-top champImage" src="assets/image/Aatrox.jpg" alt="aatroxImg">
+                    <p class="card-text champText">Aatrox</p>
+                </div>
+
+                <div class="card cardChampSetting">
+                    <img class="card-img-top champImage" src="assets/image/Ahri.jpg" alt="ahriImg">
+                    <p class="card-text champText">Ahri</p>
+                </div>
+
+                <div class="card cardChampSetting">
+                    <img class="card-img-top champImage" src="assets/image/Akali.jpg" alt="akaliImg">
+                    <p class="card-text champText">Akali</p>
+                </div>
+
+                <div class="card cardChampSetting">
+                    <img class="card-img-top champImage" src="assets/image/Alistar.jpg" alt="alistarImg">
+                    <p class="card-text champText">Alistar</p>
+                </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-md-5 board marSetting">
+                <h1 class="champText">Leaderboard</h1>
+                <table class="textPopis tableLeaderboard">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Solo Queue</th>
+                        <th>Most Played Champions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>STEPZ#LAN</td>
+                        <td>1509 LP, 63.4%</td>
+                        <td>Shyvana, Viego, Lee Sin</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>胡小青超酷#douyu</td>
+                        <td>1504 LP, 55.2%</td>
+                        <td>Smolder, Syndra, Aurora</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Thors Snoresson#3327</td>
+                        <td>1471 LP, 63.4%</td>
+                        <td>Viego, Skarner, Brand</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>밤이싫어#kr9</td>
+                        <td>1407 LP, 59.3%</td>
+                        <td>Kai'Sa, Jhin, Draven</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Finality#K405</td>
+                        <td>1385 LP, 58.5%</td>
+                        <td>Talon, Pantheon, Kha'Zix</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>divine maple#goat</td>
+                        <td>1371 LP, 66.9%</td>
+                        <td>Fiora, Gwen, Yone</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Nejire Hado#0000</td>
+                        <td>1350 LP, 59.8%</td>
+                        <td>Zed, LeBlanc, Ekko</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Pollu#0107</td>
+                        <td>1338 LP, 58.9%</td>
+                        <td>Rell, Nautilus, Poppy</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Teacherkof#God</td>
+                        <td>1334 LP, 63.0%</td>
+                        <td>Gwen, Xin Zhao, Graves</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Ivory#1012</td>
+                        <td>1312 LP, 55.3%</td>
+                        <td>Yone, Orianna, Viego</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+    </html>
