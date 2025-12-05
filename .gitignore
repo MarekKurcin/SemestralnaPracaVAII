@@ -1,0 +1,25 @@
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP
+vendor/
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files (ak budeš mať hesla)
+.env
+config/database.php
